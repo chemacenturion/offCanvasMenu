@@ -47,11 +47,17 @@ h1 {
   max-width: 33rem;
 }
 
+.offsite-is-open .offsite-container,
+.offsite-is-open .site-container {
+  transform: translateX(14rem);
+}
+
 /**
  * Menu button
  */
 button {
   border: 2px solid currentColor;
+  cursor: pointer;
 }
 
 button:hover,
